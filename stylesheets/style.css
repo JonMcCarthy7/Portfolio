@@ -4,10 +4,14 @@
 }
 
 html {
-    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 
+.title {
+  color: white;
+  padding-top: 2em;
+}
 
 .grey-text {
   color: blue;
@@ -24,4 +28,36 @@ html {
 }
 .divider {
   margin-bottom: 25px;
+}
+
+.desk {
+  filter: blur(1px) brightness(35%) grayscale(100%);
+
+}
+
+#about {
+  color: white;
+}
+
+#Projects {
+  color: white;
+}
+
+.responsive-img {
+  max-width: 250px !important;
+  max-height: auto;
+  -webkit-box-shadow: 1px 1px 10px 1px #000000;
+  box-shadow: 1px 1px 10px 1px #000000;
+  margin: -10px 0 10px 0;
+
+}
+
+.section {
+  -webkit-box-shadow: 1px 1px 10px 1px #000000;
+  box-shadow: 1px 1px 10px 1px #000000;
+}
+
+.card {
+  -webkit-box-shadow: 0px 0px 10px 1px #fff;
+  box-shadow: 0px 0px 10px 1px #fff;
 }

@@ -17,6 +17,6 @@ $(document).ready(function(){
   });
   $("#button3").click(function(){
       $('html, body').animate({
-          scrollTop: $("#work").offset().top - 63
+          scrollTop: $("#Projects").offset().top - 63
       }, 1000);
   });
